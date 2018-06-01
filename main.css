@@ -1,36 +1,48 @@
+
+
+@font-face {
+	font-family: Neuzeit;
+	src: url(../fonts/Neuzeit.ttf);
+}
+
+@font-face {
+	font-family: NeuzeitBold;
+	src: url(../fonts/Neuzeit_Heavy.ttf);
+}
+
+
 * {
-    -webkit-font-smoothning: antialiased;
-    margin: 0;
+	-webkit-font-smoothing: antialiased;
+	margin:0;
     padding: 0;
     color: #000;
 }
 
-.container {
-    margin: auto;
-    width: 320px;
-}
-
-#icons {
-    margin-top: 75px;
-    margin-bottom: 65px;
+a {
+	color: #FC3A28;
+	text-decoration: none;
+	-webkit-transition: color 0.2s;
+	-moz-transition:    color 0.2s;
+	-ms-transition:     color 0.2s;
+	-o-transition:      color 0.2s;
+	transition:         color 0.2s;
 }
 
 .alignleft {
-    float: left;
+	float: left;
 }
 
-footer {
-    font-size: 18px;
-    float: left;
-    margin-top: 28px;
-    padding-bottom: 140px;
-    width: 340px;
+body {
+	background-color: #ffffff;
+	font-family: Neuzeit;
+	font-size: 18px;
+	line-height: 28px;
 }
 
-a {
-    color: #fc3a28;
+.container {
+	margin-left: 19%;
+	width: 320px;
 }
-
 
 #dividers {
 	border-color: #000;
@@ -43,4 +55,70 @@ a {
 }
 
 
+h1 {
+	font-family: NeuzeitBold;
+	font-size: 21px;
+	letter-spacing: .25px;
+	line-height: 32px;
+	padding-top: 20px;
+}
 
+.icon {
+	padding-right: 27px;
+	width: 18px;
+}
+
+#icons {
+	margin-top: 75px;
+	margin-bottom: 65px;
+}
+
+
+
+
+footer {
+	font-family: Neuzeit;
+	font-size: 18px;
+	float: left;
+	margin-top: 28px;
+	padding-bottom: 140px;
+	width: 340px;
+}
+
+footer a {
+	margin-right: 18px;
+}
+
+@media only screen and (max-width : 480px) {
+
+body {
+	font-size: 17px;
+}
+
+.container {
+	margin-left: 8%;
+}
+
+footer {
+	font-size: 17px;
+}
+
+footer a {
+	margin-right: 20px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media (min-width: 1600px) {
+
+.container {
+	margin: auto;
+	width: 320px;
+}
+}
+
+}
