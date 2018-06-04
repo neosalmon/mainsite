@@ -18,3 +18,12 @@
 .alignleft {
     float: left;
 }
+
+footer {
+    font-size: 18px;
+    float: left;
+    margin-top: 28px;
+    padding-bottom: 140px;
+    width: 340px;
+}
+
