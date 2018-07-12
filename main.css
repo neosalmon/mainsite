@@ -4,3 +4,17 @@
     padding: 0;
     color: #000;
 }
+
+.container {
+    margin: auto;
+    width: 320px;
+}
+
+#icons {
+    margin-top: 75px;
+    margin-bottom: 65px;
+}
+
+.alignleft {
+    float: left;
+}
