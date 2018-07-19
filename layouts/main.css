@@ -1,13 +1,13 @@
 
 
 @font-face {
-	font-family: GilroyLight;
-	src: url(gilroy-light.otf);
+	font-family: Gaegu;
+	src: url(https://fonts.googleapis.com/css?family=Gaegu);
 }
 
 @font-face {
-	font-family: GilroyBold;
-	src: url(gilroy-extrabold.otf);
+	font-family: Gaegu;
+	src: url(https://fonts.googleapis.com/css?family=Gaegu);
 }
 
 
@@ -29,7 +29,7 @@ a {
 
 body {
 	background-color: #ffffff;
-	font-family: GilroyLight;
+	font-family: Gaegu;
 	font-size: 18px;
 	line-height: 28px;
 }
@@ -51,7 +51,7 @@ body {
 
 
 h1 {
-	font-family: GilroyBold;
+	font-family: Gaegu;
 	font-size: 21px;
 	letter-spacing: .25px;
 	line-height: 32px;
@@ -72,7 +72,7 @@ h1 {
 
 
 footer {
-	font-family: GilroyBold;
+	font-family: Gaegu;
 	font-size: 18px;
 	float: left;
 	margin-top: 28px;
